@@ -1,0 +1,30 @@
+.home-container .hero {
+  background: var(--hero-bg);
+  padding: 2rem 5rem;
+  height: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-container .hero .left .hero-head .head-text {
+  position: relative;
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 128px;
+  font-family: "Philosopher", sans-serif;
+}
+.home-container .hero-img {
+  position: absolute;
+  width: 670px;
+  height: 346px;
+  top: 70%;
+  left: 42%;
+}
+.hero .sub-text {
+  margin: 3rem 0;
+  width: 370px;
+  color: var(--font-color);
+}
+.hero .sub-text span {
+  display: flex;
+}

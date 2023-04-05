@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Philosopher:wght@400;700&display=swap");
+
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Philosopher', sans-serif; */
+
+.light-mode {
+  --font-color: #333333;
+  --body-bg-color: #f5f5f5;
+}
+.dark-mode {
+  --font-color: #ffffff;
+  --body-bg-color: #111111;
+  --hero-bg: linear-gradient(
+    120deg,
+    rgba(17, 17, 17, 1) 39%,
+    rgba(20, 10, 45, 1) 75%,
+    rgba(22, 10, 56, 1) 90%
+  );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

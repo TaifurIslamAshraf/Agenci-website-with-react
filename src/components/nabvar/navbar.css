@@ -1,0 +1,67 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--hero-bg);
+  height: 70px;
+  padding: 0 5rem;
+  color: var(--font-color);
+  font-family: "Mulish", sans-serif;
+  position: fixed;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--hero-bg);
+  max-width: 1326px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1000;
+}
+.navbar a {
+  color: var(--font-color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.middel {
+  position: relative;
+}
+.middel h1 {
+  font-size: 32px;
+}
+.middel .ball-1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #7443ff;
+  border-radius: 50%;
+  top: 25%;
+  right: 0;
+  z-index: -1;
+}
+
+.middel .ball-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f9003c;
+  border-radius: 50%;
+  top: 55%;
+  right: 0;
+  z-index: -2;
+}
+
+.navbar .first {
+  margin-right: 5rem;
+}
+.navbar .active {
+  color: rgb(198, 198, 231);
+}
